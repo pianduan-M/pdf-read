@@ -1,0 +1,25 @@
+body {
+  font-family: 'Myriad Pro', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+}
+html,
+body {
+  width: 100vw;
+  font-size: 14px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.sub-title {
+  margin: 20px 0;
+  font-size: var(--sub-title);
+  color: var(--text1);
+  font-weight: 400;
+}
